@@ -7,6 +7,8 @@
     "discord.io": "^2.5.3",
     "winston": "^3.2.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jshint": "^2.10.2"
+  },
   "author": "Robin Plötzwich"
 }

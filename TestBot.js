@@ -34,11 +34,11 @@ bot.on('message', (user, userID, channelID, message, event) => {
                 returnMessage = 'Hi, ' + user + '!';
                 break;
             case 'time':
-                date = new Date();
+                let date = new Date();
                 returnMessage = date.getHours() + ':' + date.getMinutes();
                 break;
             default:
-                returnMessage = 'Invalid command, try again!'
+                returnMessage = 'Invalid command, try again!';
         }
 
         bot.sendMessage({

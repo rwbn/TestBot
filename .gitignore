@@ -61,4 +61,6 @@ typings/
 .next
 
 # intelliJ
-.idea
+.idea/
+
+.jshintrc
